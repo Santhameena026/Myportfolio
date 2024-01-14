@@ -14,11 +14,16 @@
     border: none;
     border: 2px solid white;
     width:150px;
+   
+}
+.resumebtn a{
     color: black;
     text-shadow: 1px 1px white;
     font-weight: 600;
     font-size: 20px;
-}.resumebtn:hover{
+    text-decoration: none;
+}
+.resumebtn:hover{
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
     background-color: white;

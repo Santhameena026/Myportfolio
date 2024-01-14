@@ -47,7 +47,7 @@ const Experience = () => {
                     <td>B.E(ECE)</td>
                     <td>Alagappa chettiar govt college of Eng and Tech</td>
                     <td>2015-2019</td>
-                    <td>70%</td>
+                    <td>69%</td>
                  </tr>
                  <tr>
                    <td>HSC</td>

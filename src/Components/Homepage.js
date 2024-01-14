@@ -11,7 +11,7 @@ const Homepage = (props) => {
             <p className='hello'>{props.para}</p>
             <h1 className='name'>{props.name}</h1>
             <p className='developer'>{props.title}</p>
-            <button className='resumebtn'>Get Resume</button>
+            <button className='resumebtn'><a href='https://drive.google.com/file/d/1oakQxAEuoTCLgaab7goZRQwO_KIbJ2De/view?usp=sharing'>Get Resume</a></button>
             <div  className="separatealign" >
             <button className='linkbtn' ><a href='https://github.com/Santhameena026'><FaGithub className='gitbtn' style={{color:"cyan",paddingBottom:"3px"}} /></a></button>
             <button className='linkbtn'><a href='https://www.linkedin.com/in/santhameena026/'><FaLinkedin className="gitbtn" style={{color:"cyan",paddingBottom:"3px"}}/></a></button>
