@@ -49,19 +49,9 @@
 }
 .developer{
     font-size: 28px;
-    position: relative;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
     font-weight: 600;
 }
-@keyframes example {
-    0%   {color:white;font-weight: 700; left:0px; top:0px; box-shadow: 2px 2px 20px aquamarine;}
-    25%  {color:cyan; font-weight: 700;left:200px; top:0px; box-shadow: 2px 2px 20px aquamarine;}
-    50%  {color:white; font-weight: 700;left:200px; top:200px;box-shadow: 2px 2px 20px aquamarine;}
-    75%  {color:cyan; font-weight: 700;left:-200px; top:200px;box-shadow: 2px 2px 20px aquamarine;}
-    100% {color:white; font-weight: 700;left:-200px; top:0px;box-shadow: 2px 2px 20px aquamarine;}
-  }
+
 
  .linkbtn{
     border-radius: 50%;
