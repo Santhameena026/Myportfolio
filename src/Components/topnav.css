@@ -1,0 +1,15 @@
+.bgcolor{
+    background-color: grey;
+    box-shadow: 5px 5px 5px antiquewhite;
+}
+.navborder:hover{
+    border: 1px solid white;
+}
+.portfolio{
+    color:cyan;
+    font-weight: 600;
+    font-size: 25px;
+}
+.folio{
+    color:beige;
+}

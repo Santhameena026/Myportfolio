@@ -1,0 +1,72 @@
+.experience{
+    
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.para1{
+   line-height: 10px;
+}
+.para2{
+    line-height: 10px;
+}
+
+.tablealign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.tableheight{
+    height: 300px;
+    border: 3px solid aqua;
+    box-shadow: 2px 2px 20px aquamarine;
+}
+td,th{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.internship p{
+  text-align: justify;
+}
+.table th{
+    background-color: grey;
+}
+.table td{
+    background-color: grey;
+}
+.ehead{
+    text-shadow: 1px 1px white;
+    font-size: 40px;
+    color: aqua;
+}
+.certificatebtn{
+    background-color: rgb(105, 234, 234);
+    padding:6px;
+    border-radius: 25px;
+    border: none;
+    border: 2px solid white;
+    width:150px;
+    color: beige;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 2px 2px 15px aqua;
+}
+.certificatebtn:hover{
+    animation-name: certificateanimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinte;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
+}
+@keyframes certificateanimate {
+    0% {background-color: white;}
+    100% {background-color: white;text-shadow: 2px 2px white;}
+}
+.certificatebtn a{
+    color: black;
+    text-shadow: 1px 1px white;
+}

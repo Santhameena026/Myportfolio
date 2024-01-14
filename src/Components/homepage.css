@@ -1,0 +1,75 @@
+.frontpage{
+    height:95vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
+.resumebtn{
+    background-color: aqua;
+    padding:6px;
+    border-radius: 25px;
+    border: none;
+    border: 2px solid white;
+    width:150px;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-weight: 600;
+    font-size: 20px;
+}.resumebtn:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
+    background-color: white;
+}
+.linkbtn:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
+}
+.hello{
+    font-size: 24px;
+    font-weight: 700;
+}
+.name{
+    text-shadow: 2px 1px cyan;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-iteration-count: infinte;
+}
+@keyframes animate{
+    from {color:white; text-shadow: 2px 1px cyan ;}
+    to {color:cyan;text-shadow: 2px 1px white;}
+}
+.developer{
+    font-size: 28px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    font-weight: 600;
+}
+@keyframes example {
+    0%   {color:white;font-weight: 700; left:0px; top:0px; box-shadow: 2px 2px 20px aquamarine;}
+    25%  {color:cyan; font-weight: 700;left:200px; top:0px; box-shadow: 2px 2px 20px aquamarine;}
+    50%  {color:white; font-weight: 700;left:200px; top:200px;box-shadow: 2px 2px 20px aquamarine;}
+    75%  {color:cyan; font-weight: 700;left:-200px; top:200px;box-shadow: 2px 2px 20px aquamarine;}
+    100% {color:white; font-weight: 700;left:-200px; top:0px;box-shadow: 2px 2px 20px aquamarine;}
+  }
+
+ .linkbtn{
+    border-radius: 50%;
+    border: 2px solid cyan;
+    margin: 3px;
+    background-color: black;
+ } 
+ .linkbtn:hover{
+    border-radius: 5px;
+ }
+ 
+ .separatealign{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+ }

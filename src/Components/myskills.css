@@ -1,0 +1,29 @@
+.imageicon{
+    width: 170px;
+    height:170px;
+}
+.skillscard{
+    background:linear-gradient(white,aqua);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 6px 8px 15px rgba(255,255,255,0.3),inset 5px 5px 10px black;
+
+}
+.skillscard:hover{
+     box-shadow: inset 5px 5px 10px rgba(255,255,255,0.3),
+                 inset -4px -4px 10px black !important;
+     cursor: pointer;
+}
+.myskillsalign{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   padding-bottom: 80px;
+}
+.myskillhead{
+    text-shadow: 1px 1px white ;
+    font-size: 40px;
+    color: aqua;
+}
